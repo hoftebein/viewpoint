@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wp", "wp.vcxproj", "{AB913026-29E5-4B1E-84E3-52B77CAF8BF4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewpoint", "viewpoint.vcxproj", "{AB913026-29E5-4B1E-84E3-52B77CAF8BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

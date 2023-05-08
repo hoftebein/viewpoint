@@ -38,12 +38,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="wp.rc">
+    <ResourceCompile Include="viewpoint.rc">
       <Filter>Файлы ресурсов</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="wp_logo.ico">
+    <Image Include="viewpoint_logo.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>

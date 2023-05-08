@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{ab913026-29e5-4b1e-84e3-52b77caf8bf4}</ProjectGuid>
-    <RootNamespace>wp</RootNamespace>
+    <RootNamespace>viewpoint</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -158,10 +158,10 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="wp.rc" />
+    <ResourceCompile Include="viewpoint.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="wp_logo.ico" />
+    <Image Include="viewpoint_logo.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
