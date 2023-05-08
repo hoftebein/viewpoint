@@ -117,7 +117,7 @@ void displayPicture(size_t CurSpriteNum, sf::RenderWindow& Window) {
     } while ((CurSpriteWidth > ScreenInfo.width) || (CurSpriteHeight > ScreenInfo.height));
     Window.create(sf::VideoMode(CurSpriteWidth, CurSpriteHeight), Pictures[CurSpriteNum].PicName, sf::Style::Close);
     Window.setVisible(false);
-    Window.setPosition(sf::Vector2i(sf::VideoMode::getDesktopMode().width * 0.5 - Window.getSize().x * 0.5, sf::VideoMode::getDesktopMode().height * 0.5 - Window.getSize().y * 0.5));
+    Window.setPosition(sf::Vector2i(sf::VideoMode::getDesktopMode().width / 2 - Window.getSize().x / 2, sf::VideoMode::getDesktopMode().height / 2 - Window.getSize().y / 2));
     Window.setVisible(true);
     Window.draw(CurSprite);
     Window.display();
